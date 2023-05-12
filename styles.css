@@ -1,13 +1,10 @@
-/* Reset styles */
-body, h1, h2, p, ul, li {
+/* Global Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f2f2f2;
+    color: #383838;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
-}
-
-/* Global styles */
-body {
-    background-color: #f2f2f2;
 }
 
 .container {
@@ -16,273 +13,140 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
     color: #0072c6;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
 }
 
 p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style: none;
+    margin: 0;
+    line-height: 1.5;
 }
 
 .button {
     display: inline-block;
-    background-color: #0072c6;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #8bc53f;
+    color: white;
+    font-size: 18px;
     text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #005ca8;
+    background-color: #f17833;
 }
 
-/* Header section */
+/* Header */
 header {
+    text-align: center;
+    padding: 20px 0;
     background-color: #f2f2f2;
-    padding: 20px;
 }
 
-header h1 {
-    color: #0072c6;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Intro section */
+/* Introduction Section */
 #intro {
-    background-image: url('https://drive.google.com/uc?id=1cq9d-2plh0S2DLvJX841NpdVDQCxQ3cx');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 0;
     text-align: center;
+    padding: 50px 0;
 }
 
-#intro .content {
-    color: #fff;
-}
-
-/* CTA section */
+/* Call to Action Section */
 #cta {
-    background-color: #f2f2f2;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #522d80;
+    color: white;
 }
 
-#cta h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-/* Free Chapter section */
+/* Free Chapter Section */
 #free-chapter {
-    background-color: #fff;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #f7dc00;
 }
 
-#free-chapter h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#free-chapter p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-#free-chapter .button {
-    margin-top: 20px;
-}
-
-/* Newsletter section */
+/* Newsletter Section */
 #newsletter {
-    background-color: #f2f2f2;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
 }
 
-#newsletter h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-/* Newsletter section */
-#newsletter p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-#newsletter form {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-#newsletter input[type="email"] {
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #383838;
-    margin-right: 10px;
-}
-
-#newsletter .button {
-    margin-left: 10px;
-}
-
-/* Facebook Group section */
+/* Facebook Group Section */
 #facebook-group {
-    background-color: #fff;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #0072c6;
+    color: white;
 }
 
-#facebook-group h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#facebook-group p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-#facebook-group .button {
-    margin-top: 20px;
-}
-
-/* Ebook Mockup section */
+/* Ebook Mockup Section */
 #ebook-mockup {
-    background-color: #f2f2f2;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
 }
 
-#ebook-mockup h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#ebook-mockup p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* Book Peek section */
+/* Book Peek Section */
 #book-peek {
-    background-color: #fff;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #f2f2f2;
 }
 
-#book-peek h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#book-peek p {
-    color: #383838;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
-}
-
-/* About the Author section */
+/* About Author Section */
 #about-author {
-    background-color: #f2f2f2;
-    padding: 60px 0;
     text-align: center;
+    padding: 50px 0;
+    background-color: #383838;
+    color: white;
 }
 
-#about-author h2 {
-    color: #383838;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-#about-author .author-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#about-author img {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-#about-author .author-description {
-    text-align: left;
-}
-
-#about-author .author-description p {
-    margin-bottom: 10px;
-}
-
-/* Footer section */
+/* Footer */
 footer {
-    background-color: #f2f2f2;
-    padding: 20px;
     text-align: center;
-    font-size: 14px;
+    padding: 20px;
+    background-color: #f2f2f2;
     color: #383838;
 }
 
-footer p {
-    margin-bottom: 0;
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 }
+
+/* Add your custom CSS styles here */
+
+/* Because we're all about fun, let's add some funky animations and delightful surprises! */
+
+h1 {
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.button {
+    animation: bounce 1s
